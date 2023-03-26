@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "zy-build": "bin/index.js"
+    "jk-build": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^9.1.4",
-    "jenkins": "^1.0.1"
+    "inquirer": "^7.1.4",
+    "jenkins": "^1.0.1",
+    "node-localstorage": "^2.2.1"
   }
 }
